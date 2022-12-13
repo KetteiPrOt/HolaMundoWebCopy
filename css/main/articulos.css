@@ -1,0 +1,65 @@
+main .reducirAncho {
+	width: 99%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 25px;
+}
+
+main .reducirAncho .contenedorArticulos {
+	padding-bottom: 50px;
+	/*CSS Grid*/
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-gap: 20px;
+	justify-content: center;
+	z-index: 4;
+}
+
+main .reducirAncho .contenedorArticulos > article {
+	background: white;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.02);
+	transition: 0.3s all ease;
+	/*Posicion*/
+	position: relative;
+	bottom: 50px;
+}
+
+main .reducirAncho .contenedorArticulos > article:hover {
+	transform: scale(1.03, 1.03);
+}
+
+main .reducirAncho .contenedorArticulos article a {
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+}
+
+main .reducirAncho .contenedorArticulos article .titulo {
+	color: rgb(62, 67, 72);
+	font-size: 16px;
+	font-weight: 600;
+	padding: 0 20px;
+	padding-bottom: 15px;
+}
+
+main .reducirAncho .contenedorArticulos article .etiqueta {
+	color: rgb(187, 187, 187);
+	font-size: 14px;
+}
+
+main .reducirAncho .contenedorArticulos article .imagen {
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+main .reducirAncho .contenedorArticulos article .parrafo {
+	color: rgb(62, 67, 72);
+	line-height: 28px;
+	text-align: left;
+	padding: 0 20px;
+}

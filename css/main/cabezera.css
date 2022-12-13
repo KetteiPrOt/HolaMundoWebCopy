@@ -1,0 +1,115 @@
+main .presentacion {
+	background: 
+		url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='126' height='84' viewBox='0 0 126 84'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M126 83v1H0v-2h40V42H0v-2h40V0h2v40h40V0h2v40h40V0h2v83zm-2-1V42H84v40h40zM82 42H42v40h40V42zm-50-6a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM8 12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm96 12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm-42 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm30-12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM20 54a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm12 24a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM8 54a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm24 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM8 78a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm12 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm54 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM50 54a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm24 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM50 78a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm54-12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm12 12a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM92 54a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm24 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8zM92 78a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm24-42a4 4 0 1 1 0-8 4 4 0 0 1 0 8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"),
+		linear-gradient(rgb(12, 49, 81), rgb(34, 128, 204))
+	;
+	height: 590px;
+	/*CSS Grid*/
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	align-items: center;
+	justify-items: stretch;
+	grid-gap: 25px;
+}
+
+main .presentacion .cursos {
+	margin-left: 10%;
+	position: relative;
+	bottom: 48px;
+	justify-self: right;
+}
+
+main .presentacion .cursos .titulo {
+	color: rgb(239, 239, 239);
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 45px;
+}
+
+main .presentacion .cursos .parrafo {
+	color: rgb(255, 255, 255);
+	font-size: 32px;
+	font-weight: 300;
+	margin-bottom: 16px;
+}
+
+main .presentacion .cursos .enlace {
+	color: white;
+	background: #33c191;
+	text-align: center;
+	text-decoration: none;
+	font-size: 23px;
+	font-size: 600;
+	display: inline-block;
+	width: 100%;
+	padding: 16px 0;
+	border-radius: 5px;
+}
+
+main .presentacion .cursos .enlace:focus {
+	box-shadow: 0 0 0 4px rgb(51 193 145 / 25%);
+}
+
+main .presentacion .suscribirse {
+	background: rgba(0,0,0,0.25);
+	text-align: center;
+	padding: 16px 32px; 
+	padding-bottom: 40px;
+	border-radius: 5px;
+	margin-right: 10%;
+	position: relative;
+	bottom: 48px;
+	justify-self: left;
+	max-width: 602px;
+	/*Flebox*/
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+}
+
+main .presentacion .suscribirse .parrafo {
+	color: rgb(255, 255, 255);
+	font-size: 32px;
+	font-weight: 300;
+	margin-bottom: 32px;
+}
+
+main .presentacion .suscribirse .correo {
+	font-size: 23px;
+	padding: 16px;
+	border: none;
+	border-radius: 5px;	
+	margin-bottom: 15px;
+}
+
+main .presentacion .suscribirse .correo:focus {
+	outline-color: rgba(72, 95, 199, 0.3);
+	outline-style: solid;
+	outline-width: 4px;
+}
+
+::placeholder {
+	color: black;
+	opacity: 0.13;
+}
+
+main .presentacion .suscribirse .btn-suscribirme {
+	color: white;
+	background: #2280cc;
+	font-size: 23px;
+	padding: 14px;
+	border: none;
+	border-radius: 5px;	
+}
+
+main .presentacion .suscribirse .btn-suscribirme:hover {
+	background: #2079c1;
+}
+
+main .presentacion .suscribirse .btn-suscribirme:focus {
+	outline-color: rgba(72, 95, 199, 0.3);
+	outline-style: solid;
+	outline-width: 4px;
+}
+	

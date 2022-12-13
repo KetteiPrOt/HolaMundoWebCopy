@@ -1,0 +1,200 @@
+@media screen and (max-width: 1020px) {
+
+	/* Presentacion */
+	main .presentacion {
+		height: 500px;
+	}
+
+	main .presentacion .suscribirse {
+		margin-right: 5%;
+	}
+	main .presentacion .cursos {
+	 	margin-left: 5%;
+	}
+
+	/* Presentacion > cursos */
+	main .presentacion .cursos .enlace:focus {
+		box-shadow: 0 0 0 2px rgb(51 193 145 / 25%);
+	}
+
+	/* Presentacion > suscribirse */
+	main .presentacion .suscribirse {
+		padding: 12px 20px; 
+		padding-bottom: 25px;
+	}
+
+	main .presentacion .suscribirse .parrafo {
+		font-size: 28px;
+		margin-bottom: 28px;
+	}
+
+	main .presentacion .suscribirse .correo {
+		font-size: 20px;
+		padding: 16px;
+		margin-bottom: 10px;
+	}
+
+	main .presentacion .suscribirse .correo:focus {
+		outline-width: 2px;
+	}
+
+	main .presentacion .suscribirse .btn-suscribirme {
+		font-size: 20px;
+		padding: 14px;
+	}
+
+	main .presentacion .suscribirse .btn-suscribirme:focus {
+		outline-color: rgba(72, 95, 199, 0.3);
+		outline-style: solid;
+		outline-width: 2px;
+	}
+
+	/* footer */
+	footer .formulario .correo:focus {
+		outline-width: 2px;
+	}
+
+	footer .formulario .suscribirse:focus {
+		outline-width: 2px;
+	} 
+}
+
+@media screen and (max-width: 900px) {
+	/* header */
+	.enlace-navegacion {
+		display: none;
+	}
+
+	.enlace-navegacion-boton {
+		display: none;
+	}
+
+	header nav .dividir-centrarY-30 .btn-dropdown {
+		display: block;
+	}
+
+	/* Presentacion > cursos */
+	main .presentacion .cursos .titulo {
+		font-size: 35px;
+		line-height: 40px;
+	}
+
+	main .presentacion .cursos .parrafo {
+		font-size: 28px;
+		margin-bottom: 16px;
+	}
+
+	main .presentacion .cursos .enlace {
+		font-size: 20px;
+		padding: 10px 0;
+	}
+
+	/* Presentacion > suscribirse */
+	main .presentacion .suscribirse {
+		padding: 12px 20px; 
+		padding-bottom: 25px;
+	}
+
+	main .presentacion .suscribirse .parrafo {
+		margin-bottom: 16px;
+	}
+
+	main .presentacion .suscribirse .correo {
+		font-size: 20px;
+		padding: 10px 16px;
+		margin-bottom: 10px;
+	}
+
+	main .presentacion .suscribirse .btn-suscribirme {
+		font-size: 20px;
+		padding: 10px 16px;
+	}
+
+	/* articulos */
+	main .reducirAncho {
+		width: 99%;
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 0 25px;
+	}
+
+	main .reducirAncho .contenedorArticulos {
+		padding-bottom: 50px;
+		/*CSS Grid*/
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(5, 1fr);
+		grid-gap: 20px;
+		justify-content: center;
+		z-index: 4;
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+	/* Presentacion */
+	main .presentacion {
+		height: auto;
+		/*CSS Grid*/
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr;
+		align-items: center;
+		grid-gap: 0px;
+	}
+
+	main .presentacion .cursos {
+	 	margin: 0 5%;
+	 	bottom: 35px;
+	 	text-align: center;
+	 	justify-self: center;
+	}
+
+	main .presentacion .suscribirse {
+		margin: 0 5%;
+		bottom: 0px;
+	 	margin-bottom: 150px;
+	 	justify-self: center;
+	}	
+}
+
+@media screen and (max-width: 700px) {
+
+	/* articulos */
+	main .reducirAncho {
+		width: 99%;
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 0 25px;
+	}
+
+	main .reducirAncho .contenedorArticulos {
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: repeat(9,  minmax(1fr, 400px));
+	}
+
+	/* footer */
+	footer .formulario .titulo {
+		margin-bottom: 5px;
+	}
+
+	footer .formulario .parrafo {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+
+	footer .formulario .correo {
+		font-size: 20px;
+		padding: 10px 16px;
+		margin-bottom: 10px;
+	}
+
+	footer .formulario .suscribirse {
+		font-size: 20px;
+	}
+
+	footer .derechos {
+		margin-top: 150px;
+	    margin-bottom: 25px;
+	    margin-left: 25px;
+	}
+}

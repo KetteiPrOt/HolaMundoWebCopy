@@ -1,0 +1,63 @@
+footer .formulario {
+	text-align: center;
+	width: 99%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 50px;
+}
+
+footer .formulario .titulo {
+	color: #363636;
+	font-size: 21px;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+
+footer .formulario .parrafo {
+	color: rgb(136, 136, 136);
+	margin-bottom: 15px;
+}
+
+footer .formulario .correo {
+	font-size: 23px;
+	display: block;
+	width: 100%;
+	padding: 15px;
+	border: 1px solid rgba(136, 136, 136,0.3);
+	border-radius: 5px;	
+	margin-bottom: 15px;
+}
+
+footer .formulario .correo:focus {
+	outline-color: rgba(72, 95, 199, 0.3);
+	outline-style: solid;
+	outline-width: 4px;
+}
+
+footer .formulario .suscribirse {
+	color: white;
+	background: #2280cc;
+	font-size: 23px;
+	display: block;
+	width: 100%;
+	padding: 14px;
+	border: none;
+	border-radius: 5px;	
+}
+
+footer .formulario .suscribirse:hover {
+	background: #2079c1;
+}
+
+footer .formulario .suscribirse:focus {
+	outline-color: rgba(72, 95, 199, 0.3);
+	outline-style: solid;
+	outline-width: 4px;
+}
+ 
+footer .derechos {
+	color: #3e4348;
+	margin-top: 200px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
